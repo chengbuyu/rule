@@ -1,0 +1,23 @@
+#!name=sukka&jinx广告拦截
+#!desc=sukka&jinx规则订阅 REJECT-DROP模式
+#!author=sukka&jinx
+#!homepage=https://cdn.jsdelivr.net/gh/VME98/jinx-rules@master/
+#!homepage=https://blog.skk.moe/post/i-have-my-unique-surge-setup/
+#!category=Surge去广告
+#!date=2026-5-31 22:15:15
+
+[Rule]
+DOMAIN-SET,https://ruleset.skk.moe/List/domainset/reject.conf,REJECT
+RULE-SET,https://ruleset.skk.moe/List/non_ip/reject.conf,REJECT,extended-matching
+# 黑名单域名（精确匹配，每行一个）
+# DOMAIN-SET,https://cdn.jsdelivr.net/gh/VME98/jinx-rules@master/rules/blacklist.txt,REJECT-DROP,extended-matching
+# 黑名单通配符规则
+# DOMAIN-SET,https://cdn.jsdelivr.net/gh/VME98/jinx-rules@master/rules/blacklist_wildcard.txt,REJECT-DROP,extended-matching
+# 黑名单
+# DOMAIN-SET,https://cdn.jsdelivr.net/gh/VME98/jinx-rules@master/rules/domain_blacklist.txt,REJECT-DROP,extended-matching
+# 白名单域名（精确匹配）
+# DOMAIN-SET,https://cdn.jsdelivr.net/gh/VME98/jinx-rules@master/rules/whitelist.txt,DIRECT,extended-matching
+# 白名单通配符规则
+# DOMAIN-SET,https://cdn.jsdelivr.net/gh/VME98/jinx-rules@master/rules/whitelist_wildcard.txt,DIRECT,extended-matching
+# 白名单
+# DOMAIN-SET,https://cdn.jsdelivr.net/gh/VME98/jinx-rules@master/rules/domain_whitelist.txt,DIRECT,extended-matching
