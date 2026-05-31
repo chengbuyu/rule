@@ -2,7 +2,8 @@
 #!desc=anti-ad.net规则订阅 REJECT-DROP模式
 #!author=anti-ad
 #!homepage=https://anti-ad.net
-#!version=1.0
+#!category=Surge去广告
+#!date=2026-5-31 22:15:15
 
 [Rule]
 DOMAIN-SET,https://anti-ad.net/surge2.txt,REJECT-DROP
