@@ -11,6 +11,8 @@ DOMAIN-SET,https://ruleset.skk.moe/List/domainset/reject.conf,REJECT
 # DOMAIN-SET,https://ruleset.skk.moe/List/domainset/reject_extra.conf,REJECT
 # DOMAIN-SET,https://ruleset.skk.moe/List/domainset/reject_phishing.conf,REJECT
 RULE-SET,https://ruleset.skk.moe/List/non_ip/reject.conf,REJECT,extended-matching
+RULE-SET,https://ruleset.skk.moe/List/non_ip/reject-no-drop.conf,REJECT-NO-DROP,extended-matching
+RULE-SET,https://ruleset.skk.moe/List/non_ip/reject-drop.conf,REJECT-DROP,extended-matching
 # 黑名单域名（精确匹配，每行一个）
 # DOMAIN-SET,https://cdn.jsdelivr.net/gh/VME98/jinx-rules@master/rules/blacklist.txt,REJECT-DROP,extended-matching
 # 黑名单通配符规则
