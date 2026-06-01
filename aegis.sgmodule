@@ -1,4 +1,9 @@
-
+#!name=Aegis个人数字防火墙
+#!desc=Aegis规则订阅 REJECT模式
+#!author=Thoseyearsbrian/Aegis
+#!homepage=https://github.com/Thoseyearsbrian/Aegis
+#!category=Surge去广告
+#!date=2026-6-1 23:15:15
 
 [Rule]
 
